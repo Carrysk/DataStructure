@@ -62,6 +62,7 @@ int main()
         t = t->next;
     }
 
+	// t ≥ı ºªØ
     t = head;
     while(t != NULL)
     {
