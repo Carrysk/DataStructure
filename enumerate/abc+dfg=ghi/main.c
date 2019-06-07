@@ -34,7 +34,7 @@ int main()
                                                         && e != f && e != g && e != h && e != i
                                                             && f != g && f != h && f != i
                                                                 && g != h && g != i
-                                                                    && h != 1
+                                                                    && h != i
                                                                         && a * 100 + b * 10 + c + d * 100 + e * 10 + f == g * 100 + h * 10 + i)
                                         {
                                             total++;
@@ -49,7 +49,7 @@ int main()
             }
         }
     }
-    printf("total = %d" , total / 2);
+    printf("total = %d" , total/2);
     getchar(); getchar();
     return 0;
 
